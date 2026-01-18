@@ -1,0 +1,179 @@
+.background{
+    position: absolute;
+    background-image: url("otherImages/BG.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+
+}
+.body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+.player{
+    position: absolute;
+    width: 400px;
+    margin-top: 26%;
+    visibility: visible;
+}
+
+.block{
+    position: absolute;
+    background-image: url("otherImages/flame.gif");
+    background-size: cover;
+    width: 90px;
+    height: 120px;
+    margin-top: 36%;
+    visibility: visible;
+}
+
+
+.score{
+    
+    position: absolute;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: #dadada;
+    margin-left: 190px;
+    margin-top: 50px;
+    
+}
+.scoreBar{
+    position: absolute;
+    width: 300px;
+    margin-left: 30px;
+    visibility: visible;
+    
+}
+.which{
+    position: absolute;
+    transform: scaleX(-1);
+    width: 500px;
+    margin-left: -400px;
+    visibility: visible;
+}
+.endScreen{
+    position: absolute;
+    width: 850px;
+    height: 600px;
+    background-image: url("otherImages/engScreen.png");
+    background-size: cover;
+    
+
+    
+
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+
+    flex-direction: column;
+
+    margin-left: 300px;
+    margin-top: 20px;
+
+    visibility: hidden;
+}
+.winScreen{
+     position: absolute;
+     width: 850px;
+     height: 600px;
+     background-image: url("otherImages/Win\ Screen.png");
+     background-size: cover;
+     font-size: 60px;
+     font-family: arial;
+     font-weight: bold;
+     margin-left: 300px;
+     margin-top: 20px;
+     visibility: hidden;
+
+}
+
+.endTitle1{
+    color: rgb(25, 38, 65);
+    
+    margin-left: 320px;
+    margin-top: 95px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.endTitle2{
+    
+    margin-left: 350px;
+    margin-top: 115px;
+    font-size: 40px;
+
+}
+
+
+.endScore{
+    color: rgb(155, 155, 155);
+    font-size: 55px;
+    margin-left: 365px;
+    margin-top: 29px;
+}
+
+.winScore{
+    color: #e9de79;
+    font-size: 55px;
+    margin-left: 350px;
+    margin-top: 427px;
+}
+
+
+.tryAgainBtn{
+    width: 150px;
+    height: 150px;
+    background-image: url("otherImages/tryagain.png");
+    background-size: cover;
+    margin-left: 390px;
+    margin-top: -148px;
+
+}
+.tryAgainBtn2{
+    width: 150px;
+    height: 150px;
+    background-image: url("otherImages/tryagain\ 2\ .png");
+    background-size: cover;
+    margin-left: 390px;
+    margin-top: -148px;
+}
+.homeButton{
+    width: 150px;
+    height: 150px;
+    background-image: url("/otherImages/homeButton.png");
+    background-size: cover;
+    margin-left: 255px;
+    margin-top: -25px;
+}
+.homeButton2{
+    width: 150px;
+    height: 150px;
+    background-image: url("/otherImages/homeButton2.png");
+    background-size: cover;
+    margin-left: 260px;
+    margin-top: -25px;
+}
+
+
+.bag{
+    position: absolute;
+    background-image: url("otherImages/santaBag.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+
+    margin-left: 1100px;
+    margin-top: 570px;
+    visibility: hidden;
+}
+
+
+
+    
+
+

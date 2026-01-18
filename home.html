@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Santa's Winter Ride</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body class="body" onload="idleStart();"  onkeyup="keyCheck(event);">
+        <div class="background" id="background">
+
+            <img src="santa/Idle (1).png" class="player" id="player"/>
+            <img src="otherImages/which.gif" class="which" id="which"/>
+            <img src ="otherImages/score bar.png" class="scoreBar" id="scoreBar"/>
+
+             
+            <div class="score" id="score">
+                0</div>
+
+                <div class="bag" id="bag"></div>
+
+             
+                
+            <div class="endScreen" id="endScreen">
+                
+                <div class="endTitle1">Game Over!</div>
+                <div class="endTitle2">Your <br> Score</div>
+                <div class="endScore" id="endScore">0</div>
+                <a href="index.html">
+                    <div class="homeButton"></div>
+                    </a>
+                <div class="tryAgainBtn" onclick="reload();"></div>
+ 
+            </div>
+            <div class="winScreen" id="winScreen">
+                <div class="winScore" id="winScore">0</div>
+                <a href="home.html"><div class="homeButton2"></div></a>
+                <div class="tryAgainBtn2" onclick="reload();"></div>
+            </div>
+            
+            
+        </div>
+        
+        
+        
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

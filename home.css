@@ -1,0 +1,45 @@
+.body{
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    background-image: url("otherImages/HOME.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+
+}
+.playButton{
+    position: absolute;
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 450px;
+}
+.infoButton{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.infoScreen{
+    position: absolute;
+    
+    background-size: cover;
+    width: 1350px;
+    
+    margin-left: 70px;
+    margin-top: -200px;
+
+    visibility: hidden;
+}
+.okButton{
+    position: absolute;
+    width: 100px;
+    margin-left: 820px;
+    margin-top: 520px;
+    visibility: hidden;
+}
+    
